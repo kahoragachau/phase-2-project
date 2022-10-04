@@ -1,0 +1,39 @@
+{
+    "teachers":[
+        {
+            "id": 1,
+            "name": "Peter Gachau Kahora",
+            "avatar": "https://today.uconn.edu/wp-content/uploads/2018/11/GettyImages-200193780-001_AfricanAmericanTeacher_cropped.jpg",
+            "age": 47,
+            "salary": 50000
+        },
+        {
+            "id": 2,
+            "name": "Regina Wang'are Regeru",
+            "avatar":"https://i0.wp.com/prismreports.org/wp-content/uploads/2020/08/iStock-1005285232-4.jpg",
+            "age": 47,
+            "salary": 50000
+        },
+        {
+            "id": 3,
+            "name": "Peter Gachau Kahora",
+            "avatar": "https://today.uconn.edu/wp-content/uploads/2018/11/GettyImages-200193780-001_AfricanAmericanTeacher_cropped.jpg",
+            "age": 47,
+            "salary": 50000
+        },
+        {
+            "id": 4,
+            "name": "Regina Wang'are Regeru",
+            "avatar":"https://i0.wp.com/prismreports.org/wp-content/uploads/2020/08/iStock-1005285232-4.jpg",
+            "age": 47,
+            "salary": 50000
+        },
+        {
+            "id": 5,
+            "name": "Regina Wang'are Regeru",
+            "avatar":"https://i0.wp.com/prismreports.org/wp-content/uploads/2020/08/iStock-1005285232-4.jpg",
+            "age": 47,
+            "salary": 50000
+        }
+    ]
+}
