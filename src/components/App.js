@@ -1,5 +1,6 @@
 import { useEffect,useState } from "react";
 import TeachersCollection from "./TeachersCollection";
+import Search from "./Search"
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
 
   return (
     <div>
+      <Search />
       <TeachersCollection teachers={teachers}/>
     </div>
   );
