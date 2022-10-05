@@ -9,15 +9,17 @@ import Typography from '@mui/material/Typography';
 import { red,teal,green } from '@mui/material/colors';
 import DeleteIcon from '@mui/icons-material/Delete';
 import EditIcon from '@mui/icons-material/Edit';
-
+import Grid from '@mui/material/Grid'
 
 export default function TeachersCard({ teacher }) {
   return (
     <>
-      <Card sx={{ maxWidth: 325 }}>
+    <Grid container spacing={2} columns={12}>
+      <Grid item xs={12} md={4} lg={6}>
+        <Card sx={{ maxWidth: 600 }}>
         <CardMedia
           component="img"
-          height="194"
+          height="350"
           image={teacher.avatar}
           alt={ teacher.name }
         />
@@ -29,7 +31,7 @@ export default function TeachersCard({ teacher }) {
         <CardActions disableSpacing>
           <IconButton aria-label="Delete favorites">
             <DeleteIcon sx={{ color: red[300] }} onClick={ ()=> alert("Clicked!!") }/>
-            Delete
+            Remove
           </IconButton>
           <IconButton aria-label="share">
             <EditIcon sx={{ color: green[500] }}/>
@@ -37,6 +39,8 @@ export default function TeachersCard({ teacher }) {
           </IconButton>
         </CardActions>
       </Card>
+      </Grid>
+    </Grid>
       <br />
     </>
   );

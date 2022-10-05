@@ -12,7 +12,7 @@ function App() {
   },[])
 
   return (
-    <div className="App">
+    <div>
       <TeachersCollection teachers={teachers}/>
     </div>
   );
