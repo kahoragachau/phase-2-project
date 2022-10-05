@@ -5,6 +5,7 @@ import Search from "./Search"
 
 function App() {
   const [teachers, setTeachers] = useState([])
+  const [searchText, setSearchText] = useState("")
 
   useEffect(()=> {
     fetch("http://localhost:3001/teachers")
@@ -12,10 +13,14 @@ function App() {
     .then(data => setTeachers(data))
   },[])
 
+  const filteredTeachers = teachers.filter(teacher => {
+    return JSON.stringify(teacher).toLowerCase().includes(searchText.toLowerCase())
+  })
+
   return (
     <div>
-      <Search />
-      <TeachersCollection teachers={teachers}/>
+      <Search searchText={searchText} setSearchText={setSearchText}/>
+      <TeachersCollection teachers={filteredTeachers}/>
     </div>
   );
 }
