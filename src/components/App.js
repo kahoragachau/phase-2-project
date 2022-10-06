@@ -1,6 +1,7 @@
 import { useEffect,useState } from "react";
 import TeachersCollection from "./TeachersCollection";
 import Search from "./Search"
+import AddTeacher from "./AddTeacher";
 
 
 function App() {
@@ -13,14 +14,15 @@ function App() {
     .then(data => setTeachers(data))
   },[])
 
-  const filteredTeachers = teachers.filter(teacher => {
+  const filteredTeachers = teachers?.filter(teacher => {
     return JSON.stringify(teacher).toLowerCase().includes(searchText.toLowerCase())
   })
 
   return (
     <div>
       <Search searchText={searchText} setSearchText={setSearchText}/>
-      <TeachersCollection teachers={filteredTeachers}/>
+      <TeachersCollection teachers={filteredTeachers} setTeachers={setTeachers}/>
+      <AddTeacher setTeachers={setTeachers}/>
     </div>
   );
 }

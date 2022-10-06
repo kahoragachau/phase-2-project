@@ -11,12 +11,12 @@ import DeleteIcon from '@mui/icons-material/Delete';
 import EditIcon from '@mui/icons-material/Edit';
 import Grid from '@mui/material/Grid'
 
-export default function TeachersCard({ teacher }) {
+export default function TeachersCard({ teacher, handleDelete }) {
   return (
     <>
     <Grid container spacing={2} columns={12}>
       <Grid item xs={12} md={4} lg={6}>
-        <Card sx={{ maxWidth: 600 }}>
+        <Card sx={{ maxWidth: 600 }} >
         <CardMedia
           component="img"
           height="350"
@@ -24,13 +24,18 @@ export default function TeachersCard({ teacher }) {
           alt={ teacher.name }
         />
         <CardContent sx={{ bgcolor: teal[100] }}>
+          Name:
+          <Typography variant="body2" color="text.secondary">
+           {teacher.name}
+          </Typography>
+          Description:
           <Typography variant="body2" color="text.secondary">
             {teacher.description}
           </Typography>
         </CardContent>
         <CardActions disableSpacing>
-          <IconButton aria-label="Delete favorites">
-            <DeleteIcon sx={{ color: red[300] }} onClick={ ()=> alert("Clicked!!") }/>
+          <IconButton aria-label="Delete teacher" onClick={handleDelete}>
+            <DeleteIcon sx={{ color: red[900] }}/>
             Remove
           </IconButton>
           <IconButton aria-label="share">

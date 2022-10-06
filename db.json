@@ -1,44 +1,52 @@
 {
-    "teachers":[
-        {
-            "id": 1,
-            "name": "Peter Gachau Kahora",
-            "avatar": "https://today.uconn.edu/wp-content/uploads/2018/11/GettyImages-200193780-001_AfricanAmericanTeacher_cropped.jpg",
-            "description": "Meet Mr. Gachau A talented Teacher with a 20 year experience in teaching, nuturing young and brilliant minds, plus he has a flare for the theatrics",
-            "age": 47,
-            "salary": 50000
-        },
-        {
-            "id": 2,
-            "name": "Regina Wang'are Regeru",
-            "avatar":"https://i0.wp.com/prismreports.org/wp-content/uploads/2020/08/iStock-1005285232-4.jpg",
-            "description": "Meet Mr. Gachau A talented Teacher with a 20 year experience in teaching, nuturing young and brilliant minds, plus he has a flare for the theatrics",
-            "age": 47,
-            "salary": 50000
-        },
-        {
-            "id": 3,
-            "name": "Peter Gachau Kahora",
-            "avatar": "https://today.uconn.edu/wp-content/uploads/2018/11/GettyImages-200193780-001_AfricanAmericanTeacher_cropped.jpg",
-            "description": "Meet Mr. Gachau A talented Teacher with a 20 year experience in teaching, nuturing young and brilliant minds, plus he has a flare for the theatrics",
-            "age": 47,
-            "salary": 50000
-        },
-        {
-            "id": 4,
-            "name": "Regina Wang'are Regeru",
-            "avatar":"https://i0.wp.com/prismreports.org/wp-content/uploads/2020/08/iStock-1005285232-4.jpg",
-            "description": "Meet Mr. Gachau A talented Teacher with a 20 year experience in teaching, nuturing young and brilliant minds, plus he has a flare for the theatrics",
-            "age": 47,
-            "salary": 50000
-        },
-        {
-            "id": 5,
-            "name": "Regina Wang'are Regeru",
-            "avatar":"https://i0.wp.com/prismreports.org/wp-content/uploads/2020/08/iStock-1005285232-4.jpg",
-            "description": "Meet Mr. Gachau A talented Teacher with a 20 year experience in teaching, nuturing young and brilliant minds, plus he has a flare for the theatrics",
-            "age": 47,
-            "salary": 50000
-        }
-    ]
+  "teachers": [
+    {
+      "id": 1,
+      "name": "Peter Gachau Kahora",
+      "avatar": "https://today.uconn.edu/wp-content/uploads/2018/11/GettyImages-200193780-001_AfricanAmericanTeacher_cropped.jpg",
+      "description": "Meet Mr. Gachau A talented Teacher with a 20 year experience in teaching, nuturing young and brilliant minds, plus he has a flare for the theatrics",
+      "age": 47,
+      "salary": 50000
+    },
+    {
+      "id": 2,
+      "name": "Regina Wang'are Regeru",
+      "avatar": "https://i0.wp.com/prismreports.org/wp-content/uploads/2020/08/iStock-1005285232-4.jpg",
+      "description": "Meet Mr. Gachau A talented Teacher with a 20 year experience in teaching, nuturing young and brilliant minds, plus he has a flare for the theatrics",
+      "age": 47,
+      "salary": 50000
+    },
+    {
+      "id": 3,
+      "name": "Joel Kahora",
+      "avatar": "https://imgs.search.brave.com/6HGHdIslmEHOa7QwIyXi8U09lP_v5d14JdIDhSjOo8o/rs:fit:841:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5s/WDdFMEFhMTJ1SGZv/X2JHazIyaEpRSGFF/TCZwaWQ9QXBp",
+      "description": "Meet Mr. Gachau A talented Teacher with a 20 year experience in teaching, nuturing young and brilliant minds, plus he has a flare for the theatrics",
+      "age": 47,
+      "salary": 50000
+    },
+    {
+      "id": 4,
+      "name": "Joan Muthoni",
+      "avatar": "https://imgs.search.brave.com/l6DRxgARRMxe3llpKuggacbAHyvjJNICUMrtwirhLTw/rs:fit:711:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5u/RHZnWmJRV0l3eHJ0/cjlicE9Jd3FnSGFF/OCZwaWQ9QXBp",
+      "description": "Meet Mr. Gachau A talented Teacher with a 20 year experience in teaching, nuturing young and brilliant minds, plus he has a flare for the theatrics",
+      "age": 47,
+      "salary": 50000
+    },
+    {
+      "id": 5,
+      "name": "Stacey Njeri",
+      "avatar": "https://imgs.search.brave.com/oiARYkqYLVT5KWuvqmNQbiDH2SVq7iTsLAQ_m6XSR_A/rs:fit:632:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC55/cmdLRGgzWG1icVFn/WlFyYU1TVkRnSGFG/aiZwaWQ9QXBp",
+      "description": "Meet Mr. Gachau A talented Teacher with a 20 year experience in teaching, nuturing young and brilliant minds, plus he has a flare for the theatrics",
+      "age": 47,
+      "salary": 50000
+    },
+    {
+      "id": 6,
+      "name": "Jeremy Regeru",
+      "avatar": "https://imgs.search.brave.com/B_KxKfoFKGqekYdHGWRQUkyRN_-xH9-UHkCmlKXYh9k/rs:fit:860:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5f/Tk9jLUVUcDZmUUY1/cVYtRTd5S2ZnSGFF/RiZwaWQ9QXBp",
+      "description": "Meet Mr. Gachau A talented Teacher with a 20 year experience in teaching, nuturing young and brilliant minds, plus he has a flare for the theatrics",
+      "age": 47,
+      "salary": 50000
+    }
+  ]
 }
