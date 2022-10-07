@@ -2,6 +2,8 @@ import  Box  from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button"
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+
 
 export default function AddTeacher({ setTeachers }){
     const [formData, setFormData] = useState({
@@ -11,6 +13,9 @@ export default function AddTeacher({ setTeachers }){
         age: 0,
         avatar: ""
     })
+
+
+    const navigate = useNavigate(); 
 
     function handleSubmit(event){
         event.preventDefault()
@@ -30,7 +35,9 @@ export default function AddTeacher({ setTeachers }){
             avatar: ""
         })
         setTeachers(previousData => [...previousData, data])
-    })}
+        navigate("/Home");
+    })
+    }
 
     return(
         <Box 
