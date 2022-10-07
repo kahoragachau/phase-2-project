@@ -82,3 +82,18 @@ The Link to the Backend code is [here](https://teachers-data-project.herokuapp.c
 
 ## Live Link
 The Link to the live site is [here](https://phase-2-project-ruby.vercel.app/)
+
+## Setup Instructions
+- Copy Link to this repository
+- Open up your terminal
+- Type `git clone git@github.com:kahoragachau/phase-2-project.git`
+- Type `cd phase-2-project`
+- Type `npm install` to install its dependencies
+- Type  `npm start` to run the project on your local machine
+
+## Technologies Used
+- React
+- React-Router-Dom
+- Heroku (Runs our backend server)
+- Vercel (Runs our frontend code)
+
