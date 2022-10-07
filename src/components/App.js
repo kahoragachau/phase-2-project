@@ -9,7 +9,7 @@ function App() {
   const [searchText, setSearchText] = useState("")
 
   useEffect(()=> {
-    fetch("http://localhost:3001/teachers")
+    fetch("https://teachers-data-project.herokuapp.com/teachers")
     .then(res => res.json())
     .then(data => setTeachers(data))
   },[])
