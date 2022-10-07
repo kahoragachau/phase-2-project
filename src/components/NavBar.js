@@ -17,7 +17,7 @@ import Button from '@mui/material/Button';
 import { NavLink } from 'react-router-dom';
 
 const drawerWidth = 240;
-const navItems = ['Home', 'AddTeacher', 'SearchTeacher'];
+const navItems = ['Home', 'AddTeacher', 'Contacts'];
 
 function DrawerAppBar(props) {
   const { window } = props;
@@ -53,8 +53,8 @@ function DrawerAppBar(props) {
   const container = window !== undefined ? () => window().document.body : undefined;
 
   return (
-    <Box sx={{ display: 'flex' }}>
-      <AppBar component="nav">
+    <Box sx={{ display: 'flex'}}>
+      <AppBar component="nav" sx={{ color: "#fff" }}>
         <Toolbar>
           <IconButton
             color="inherit"

@@ -4,6 +4,7 @@ import TeachersCollection from "./TeachersCollection";
 import Search from "./Search"
 import AddTeacher from "./AddTeacher";
 import NavBar from "./NavBar"
+import ContactForm from "./ContactForm";
 
 
 function App() {
@@ -29,7 +30,9 @@ function App() {
       <Search searchText={searchText} setSearchText={setSearchText}/>
       <Routes>
         <Route exact path="/AddTeacher" element={<AddTeacher/>}/>
-        <Route exact path="Home" element={<TeachersCollection teachers={filteredTeachers} setTeachers={setTeachers}/>}/>
+        <Route exact path="/Contacts" element={<ContactForm />}/>
+        <Route exact path="/Home" element={<TeachersCollection teachers={filteredTeachers} setTeachers={setTeachers}/>}/>
+        <Route exact path="/" element={<TeachersCollection teachers={filteredTeachers} setTeachers={setTeachers}/>}/>
       </Routes>
       {/* <TeachersCollection teachers={filteredTeachers} setTeachers={setTeachers}/>
       <AddTeacher setTeachers={setTeachers}/> */}
