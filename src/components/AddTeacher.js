@@ -35,8 +35,9 @@ export default function AddTeacher({ setTeachers }){
             avatar: ""
         })
         setTeachers(previousData => [...previousData, data])
-        navigate("/Home");
+        // navigate("Home");
     })
+    navigate("/")
     }
 
     return(
