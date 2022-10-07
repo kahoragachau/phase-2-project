@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -67,4 +67,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
+
+# Teachers Records
+
+## Description
+This is a teachers records that is used by hearing managers to keep track of all details of a particular teacher, the hiring manager can be able to view, add, update the records of a particular teacher
+
+## Authors
+Joel Kahora Gachau
+
+## About
+The Link to the Backend code is [here](https://teachers-data-project.herokuapp.com/teachers)
+
+## Live Link
+The Link to the live site is [here](https://phase-2-project-ruby.vercel.app/)
