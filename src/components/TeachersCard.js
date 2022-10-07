@@ -15,7 +15,7 @@ export default function TeachersCard({ teacher, handleDelete }) {
   return (
     <>
     <Grid container spacing={2} columns={12}>
-      <Grid item xs={12} md={4} lg={6}>
+      <Grid item xs={12} md={4} lg={6} >
         <Card sx={{ maxWidth: 600 }} >
         <CardMedia
           component="img"

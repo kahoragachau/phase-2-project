@@ -1,7 +1,9 @@
 import { useEffect,useState } from "react";
+import {Routes, Route} from "react-router-dom"
 import TeachersCollection from "./TeachersCollection";
 import Search from "./Search"
 import AddTeacher from "./AddTeacher";
+import NavBar from "./NavBar"
 
 
 function App() {
@@ -20,9 +22,17 @@ function App() {
 
   return (
     <div>
+      <NavBar />
+      <br />
+      <br />
+      <br />
       <Search searchText={searchText} setSearchText={setSearchText}/>
-      <TeachersCollection teachers={filteredTeachers} setTeachers={setTeachers}/>
-      <AddTeacher setTeachers={setTeachers}/>
+      <Routes>
+        <Route exact path="/AddTeacher" element={<AddTeacher/>}/>
+        <Route exact path="Home" element={<TeachersCollection teachers={filteredTeachers} setTeachers={setTeachers}/>}/>
+      </Routes>
+      {/* <TeachersCollection teachers={filteredTeachers} setTeachers={setTeachers}/>
+      <AddTeacher setTeachers={setTeachers}/> */}
     </div>
   );
 }
