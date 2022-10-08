@@ -1,7 +1,7 @@
 # Teachers Records
 
 ## Description
-This is a teachers records that is used by hearing managers to keep track of all details of a particular teacher, the hiring manager can be able to view, add, update the records of a particular teacher
+This is a teachers records that is used by hiring managers to keep track of all details of a particular teacher, the hiring manager can be able to view, add, update the records of a particular teacher
 
 ## Authors
 Joel Kahora Gachau
