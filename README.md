@@ -28,6 +28,10 @@ The Link to the live site is [here](https://phase-2-project-ruby.vercel.app/)
 - Git
 - Json-server
 
+## Upcoming Features
+-  implement the feature to update a teachers records and details.
+- Update the User Interface.
+
 ## Known Bugs
 There is a bug that occurs when the hiring manager tries to add a new teacher in the AddTeacher component it redirects them to the TeacherCollection Component, as its supposed to, but it requires them to refresh the component in order to view the latest addition.
 
