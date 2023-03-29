@@ -47,6 +47,30 @@
       "description": "Meet Mr. Gachau A talented Teacher with a 20 year experience in teaching, nuturing young and brilliant minds, plus he has a flare for the theatrics",
       "age": 47,
       "salary": 50000
+    },
+    {
+      "name": "Joh Doe",
+      "avatar": "https://imgs.search.brave.com/l6DRxgARRMxe3llpKuggacbAHyvjJNICUMrtwirhLTw/rs:fit:711:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5u/RHZnWmJRV0l3eHJ0/cjlicE9Jd3FnSGFF/OCZwaWQ9QXBp",
+      "description": "Meet Mr. Gachau A talented Teacher with a 20 year experience in teaching, nuturing young and brilliant minds, plus he has a flare for the theatrics",
+      "age": 47,
+      "salary": 50000,
+      "id": 7
+    },
+    {
+      "name": "Another One",
+      "avatar": "https://imgs.search.brave.com/l6DRxgARRMxe3llpKuggacbAHyvjJNICUMrtwirhLTw/rs:fit:711:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5u/RHZnWmJRV0l3eHJ0/cjlicE9Jd3FnSGFF/OCZwaWQ9QXBp",
+      "description": "Meet Mr. Gachau A talented Teacher with a 20 year experience in teaching, nuturing young and brilliant minds, plus he has a flare for the theatrics",
+      "age": 47,
+      "salary": 50000,
+      "id": 8
+    },
+    {
+      "name": "na ndato",
+      "description": "dskfnlkdsfnlnsdflnlFKNnldgnsmlaLJFOJEFjnnowefl",
+      "salary": "500000",
+      "age": 54,
+      "avatar": "https://i.guim.co.uk/img/media/26392d05302e02f7bf4eb143bb84c8097d09144b/446_167_3683_2210/master/3683.jpg",
+      "id": 9
     }
   ]
 }

@@ -1,6 +1,10 @@
 import * as React from 'react';
+// import { useState } from 'react';
+// import Button from '@mui/material/Button';
 // import { styled } from '@mui/material/styles';
 import Card from '@mui/material/Card';
+// import Modal from '@mui/material/Modal';
+// import Box from '@mui/material/Box';
 import CardMedia from '@mui/material/CardMedia';
 import CardContent from '@mui/material/CardContent';
 import CardActions from '@mui/material/CardActions';
@@ -10,8 +14,18 @@ import { red,teal,green } from '@mui/material/colors';
 import DeleteIcon from '@mui/icons-material/Delete';
 import EditIcon from '@mui/icons-material/Edit';
 import Grid from '@mui/material/Grid'
+import BasicModal from './Modal';
+
+
+const handleEdit = () => {
+  alert ("Clicked!!")
+  return <BasicModal />
+}
+
 
 export default function TeachersCard({ teacher, handleDelete }) {
+
+
   return (
     <>
     <Grid container spacing={2} columns={12}>
@@ -38,7 +52,7 @@ export default function TeachersCard({ teacher, handleDelete }) {
             <DeleteIcon sx={{ color: red[900] }}/>
             Remove
           </IconButton>
-          <IconButton aria-label="share">
+          <IconButton aria-label="Edit Teachers Info" onClick={<BasicModal />}>
             <EditIcon sx={{ color: green[500] }}/>
             Edit
           </IconButton>

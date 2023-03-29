@@ -3,7 +3,7 @@ import TeachersCard from "./TeachersCard";
 
 export default function TeachersCollection({ teachers, setTeachers }) {
     function handleDelete(id){
-        fetch(`https://teachers-data-project.herokuapp.com/teachers/${id}`, {
+        fetch(`http://localhost:3001/teachers${id}`, {
           method:"DELETE"
         })
         .then(() => setTeachers(previousData => {
