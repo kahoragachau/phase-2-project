@@ -20,7 +20,7 @@ export default function AddTeacher({ setTeachers }){
     function handleSubmit(event){
         event.preventDefault()
         console.log(formData)
-        fetch("http://localhost:3001/teachers",{
+        fetch("https://jolly-puce-chipmunk.cyclic.app/teachers",{
             headers: { "Content-Type": "application/json" },
             method: "POST",
             body: JSON.stringify(formData)

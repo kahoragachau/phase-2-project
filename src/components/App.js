@@ -12,7 +12,7 @@ function App() {
   const [searchText, setSearchText] = useState("")
 
   useEffect(()=> {
-    fetch("http://localhost:3001/teachers")
+    fetch("https://jolly-puce-chipmunk.cyclic.app/teachers")
     .then(res => res.json())
     .then(data => setTeachers(data))
   },[])

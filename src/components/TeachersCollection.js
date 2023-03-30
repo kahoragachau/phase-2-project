@@ -3,7 +3,7 @@ import TeachersCard from "./TeachersCard";
 
 export default function TeachersCollection({ teachers, setTeachers }) {
     function handleDelete(id){
-        fetch(`http://localhost:3001/teachers${id}`, {
+        fetch(`https://jolly-puce-chipmunk.cyclic.app/teachers${id}`, {
           method:"DELETE"
         })
         .then(() => setTeachers(previousData => {
