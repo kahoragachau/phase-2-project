@@ -23,7 +23,7 @@ The Link to the live site is [here](https://phase-2-project-ruby.vercel.app/)
 ## Technologies Used
 - React
 - React-Router-Dom
-- Heroku (Runs our backend server)
+- Cyclic (Runs our backend server)
 - Vercel (Runs our frontend code)
 - Git
 - Json-server
