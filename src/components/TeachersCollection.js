@@ -1,5 +1,5 @@
 import TeachersCard from "./TeachersCard";
-
+import { useNavigate } from "react-router-dom";
 
 export default function TeachersCollection({ teachers, setTeachers }) {
     function handleDelete(id){
@@ -11,8 +11,11 @@ export default function TeachersCollection({ teachers, setTeachers }) {
         }))
       }
 
+      const navigate = useNavigate();
+      
       function handleEdit(teacher) {
-        
+        navigate('EditTeacher')
+        console.log(teacher)
       }
 
     const teacher = teachers?.map(teacher => {
