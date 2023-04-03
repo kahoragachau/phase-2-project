@@ -9,16 +9,16 @@ import { red,teal,green } from '@mui/material/colors';
 import DeleteIcon from '@mui/icons-material/Delete';
 import EditIcon from '@mui/icons-material/Edit';
 import Grid from '@mui/material/Grid'
-import { useNavigate } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
 
 
-export default function TeachersCard({ teacher, handleDelete }) {
+export default function TeachersCard({ teacher, handleDelete, handleEdit }) {
 
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
-  const handleEdit = () => {
-    navigate('EditTeacher')
-  }
+  // const handleEdit = () => {
+  //   navigate('EditTeacher')
+  // }
 
   return (
     <>

@@ -34,7 +34,7 @@ function App() {
         <Route exact path="Contacts" element={<ContactForm />}/>
         <Route exact path="Home" element={<TeachersCollection teachers={filteredTeachers} setTeachers={setTeachers}/>}/>
         <Route exact path="/" element={<TeachersCollection teachers={filteredTeachers} setTeachers={setTeachers}/>}/>
-        <Route exact path="EditTeacher" element={<EditTeacher />} />
+        <Route path="teacher/:id/edit" element={<EditTeacher />} />
       </Routes>
       {/* <TeachersCollection teachers={filteredTeachers} setTeachers={setTeachers}/>
       <AddTeacher setTeachers={setTeachers}/> */}
